@@ -18,7 +18,7 @@
     
     .div1 {
         position: absolute;
-        left: 0%;
+        left: 7%;
         top: 10%;
     }
     
@@ -46,9 +46,7 @@
     }
     
     address {
-        margin-left: 10px;
         font-size: 1em;
-        padding: 10px;
     }
     
     #bloco > h1 {
@@ -89,12 +87,8 @@
     
     .div1 {
         position: absolute;
-        left: 5%;
+        left: 10%;
         top: 10%;
-    }
-
-    address {
-        font-size: 1.1em;
     }
 
     .p3 {
@@ -102,11 +96,17 @@
         float: left;
     }
 
+    address {
+        font-size: 1em;
+    }
+
     textarea {
         width: 95%;
         height: 100px;
+        margin-top: 5px;
+        margin-left: 2px;
     }
-
+    
     input[type=text], [type=email] {
         padding: 7px;
         width: 98%;
@@ -122,6 +122,105 @@
     }
 }
 
-@media  screen and (min-width: 1025px) {
+@media  screen and (min-width: 1024px) and (max-width: 1200px) {
     
+    .div1 {
+        position: absolute;
+        left: 20%;
+    }
+
+    .div1 > h1 {
+        font: bolder 20pt 'Arial';
+        font-variant: small-caps;
+        margin-top: 50px;
+        margin-left: 10px;
+        color: rgba(19, 75, 180, 0.801);
+        position: relative;
+    }
+
+    .p3 {
+        padding: 20px;
+        float: left;
+        position: relative;
+    }
+
+    textarea {
+        width: 95%;
+        height: 100px;
+    }
+
+    address {
+        font-size: 1em;
+    }
+
+
+    #bloco > h1 {
+        padding: 10px;
+        margin-top: 19%;
+        margin-left: 5px;
+        font-size: 25pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(181, 181, 240);
+    }
+    
+    input[type=text], [type=email] {
+        padding: 7px;
+        width: 96%;
+    }
+
+    #redes-sociais {
+        margin-top: 600px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .div1 {
+        position: absolute;
+        left: 20%;
+    }
+
+    .div1 > h1 {
+        font: bolder 20pt 'Arial';
+        font-variant: small-caps;
+        margin-top: 50px;
+        margin-left: 10px;
+        color: rgba(19, 75, 180, 0.801);
+        position: relative;
+    }
+
+    .p3 {
+        padding: 20px;
+        float: left;
+        position: relative;
+    }
+
+    textarea {
+        width: 95%;
+        height: 100px;
+    }
+
+    address {
+        font-size: 1em;
+    }
+
+
+    #bloco > h1 {
+        padding: 10px;
+        margin-top: 19%;
+        margin-left: 5px;
+        font-size: 25pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(181, 181, 240);
+    }
+    
+    input[type=text], [type=email] {
+        padding: 7px;
+        width: 96%;
+    }
+
+    #redes-sociais {
+        margin-top: 700px;
+    }
 }

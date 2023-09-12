@@ -65,7 +65,7 @@ textarea {
 }
 
 #redes-sociais {
-    margin-top: 71vh;
+    margin-top: 395px;
 }
 
 #redes-sociais img {
@@ -111,6 +111,6 @@ p > input[type=submit] {
 }
 
 input[type=text], [type=email] {
-    padding: 7px;
+    padding: 10px;
     width: 270px;
 }
