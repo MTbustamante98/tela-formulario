@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 600px) {
 body, html {
         background-color: #ffffff;
         margin: 0;
@@ -8,8 +7,9 @@ body, html {
     
 .grid-container {
         display: grid;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 1fr 2fr;
         height: 100vh;
+        width: 100vw;
       }
     
 .coluna {
@@ -22,7 +22,7 @@ body, html {
     }
 
 .localização > h1 {
-        font: bolder 18pt 'Arial';
+        font: bolder 15pt 'Arial';
         font-variant: small-caps;
         margin-top: 50px;
         margin-left: 10px;
@@ -32,29 +32,29 @@ body, html {
 
 .p2 {
     padding: 10px;
-    font: bolder 15pt  'Arial';
+    font: bolder 13pt  'Arial';
     color: rgba(19, 76, 180, 0.918);
     text-align: center;
 }
 
 .p3 {
     text-align: center;
-    padding: 20px;
+    font-size: 10pt;
 }
 
 address {
     text-align: center;
-    font-size: 12pt;
+    font-size: 10pt;
     margin-top: 20px;
 }
 
 .redes-sociais {
-    margin-top: 190px;
+    margin-top: 250px;
 }
 
 a > img {
-    width: 25px;
-    margin-left: 20px;
+    width: 20px;
+    margin-left: 15px;
     border-radius: 50%;
     box-sizing: border-box;
 }
@@ -63,7 +63,7 @@ a > img {
     padding: 10px;
     margin-top: 40px;
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 15pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(181, 181, 240);
 }
