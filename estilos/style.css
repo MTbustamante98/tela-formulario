@@ -3,6 +3,7 @@
 body, html {
         background-color: #ffffff;
         margin: 0;
+        
     }
     
 .grid-container {
@@ -22,7 +23,7 @@ body, html {
     }
 
 .localização > h1 {
-        font: bolder 15pt 'Arial';
+        font: bolder 10pt 'Arial';
         font-variant: small-caps;
         margin-top: 50px;
         margin-left: 10px;
@@ -32,49 +33,49 @@ body, html {
 
 .p2 {
     padding: 10px;
-    font: bolder 13pt  'Arial';
+    font: bolder 9pt  'Arial';
     color: rgba(19, 76, 180, 0.918);
     text-align: center;
 }
 
 .p3 {
     text-align: center;
-    font-size: 10pt;
+    font-size: 8pt;
 }
 
 address {
     text-align: center;
-    font-size: 10pt;
+    font-size: 7.5pt;
     margin-top: 20px;
 }
 
 .redes-sociais {
-    margin-top: 250px;
+    margin-top: 275px;
 }
 
 a > img {
-    width: 20px;
+    width: 15px;
     margin-left: 33px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
 .coluna2 > h1 {
-    padding: 10px;
-    margin-top: 40px;
+    padding: 5px;
+    margin-top: 47px;
     margin-left: 5px;
-    font-size: 15pt;
+    font-size: 10pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(181, 181, 240);
 }
 
 input[type=text], [type=email] {
-    padding: 10px;
-    width: 85%;
+    padding: 3px;
+    width: 210px;
 }
 
 p > textarea {
-    width: 92%;
+    width: 215px;
     height: 80px;
 }
 
