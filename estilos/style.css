@@ -22,6 +22,10 @@ body, html {
         background: rgb(43, 76, 138);
     }
 
+.localização {
+    margin-top: 100px;
+}
+
 .localização > h1 {
         font: bolder 10pt 'Arial';
         font-variant: small-caps;
@@ -50,19 +54,19 @@ address {
 }
 
 .redes-sociais {
-    margin-top: 275px;
+    margin-top: 250px;
 }
 
 a > img {
-    width: 15px;
-    margin-left: 33px;
+    width: 13px;
+    margin-left: 35px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
 .coluna2 > h1 {
     padding: 5px;
-    margin-top: 47px;
+    margin-top: 95px;
     margin-left: 5px;
     font-size: 10pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,7 +74,6 @@ a > img {
 }
 
 input[type=text], [type=email] {
-    padding: 3px;
     width: 210px;
 }
 
