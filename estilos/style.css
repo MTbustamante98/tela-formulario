@@ -7,7 +7,7 @@ body, html {
     
 .grid-container {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr 3fr;
         height: 100vh;
         width: 100vw;
       }
@@ -54,7 +54,7 @@ address {
 
 a > img {
     width: 20px;
-    margin-left: 15px;
+    margin-left: 22px;
     border-radius: 50%;
     box-sizing: border-box;
 }
@@ -70,11 +70,11 @@ a > img {
 
 input[type=text], [type=email] {
     padding: 10px;
-    width: 290px;
+    width: 260px;
 }
 
 p > textarea {
-    width: 309px;
+    width: 277px;
     height: 80px;
 }
 
@@ -92,7 +92,7 @@ p > input[type=submit] {
     border: 2px solid white;
     cursor: pointer;
 } 
-}
+
 
 
 /*-------------Media query 600px-700px----------*/
